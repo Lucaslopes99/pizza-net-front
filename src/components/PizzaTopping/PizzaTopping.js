@@ -12,6 +12,10 @@ export default function PizzaTopping({ image, toppingName, toppingDescription })
                 <h3 className='pizza-topping-name'>{toppingName}</h3>
                 <p className='pizza-topping-description'>{toppingDescription}</p>
             </div>
+            <div className='add-button-rounded'>
+                
+                <span className='add-button-rounded-plus'>+</span>
+            </div>
         </div>
     );
 }

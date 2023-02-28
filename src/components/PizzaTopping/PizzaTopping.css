@@ -2,6 +2,7 @@
     max-width: 280px;
     box-shadow: 4px 4px 6px 1px #ddd;
     border-radius: 5px;
+    position: relative;
 }
 
 .pizza-topping-name {
@@ -24,4 +25,33 @@
 .pizza-topping-text {
     text-align: left;
     padding: 0 10px 15px 10px;
+}
+
+.add-button-rounded {
+    border-radius: 50%;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: -20px;
+    bottom: -20px;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 99;
+    background: white;
+    transition: all .3s;
+    background-color: #ff6f6f;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+.add-button-rounded-plus {
+    position: absolute;
+    line-height: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.add-button-rounded:hover {
+   cursor: pointer;
 }
