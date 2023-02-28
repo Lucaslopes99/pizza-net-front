@@ -1,0 +1,27 @@
+.pizza-topping-card {
+    max-width: 280px;
+    box-shadow: 4px 4px 6px 1px #ddd;
+    border-radius: 5px;
+}
+
+.pizza-topping-name {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.pizza-topping-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.pizza-topping-description {
+    margin: 0;
+}
+
+.pizza-topping-text {
+    text-align: left;
+    padding: 0 10px 15px 10px;
+}
